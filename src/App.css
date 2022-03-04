@@ -1,0 +1,53 @@
+.header{
+height: 250;
+padding-top: 50px;
+background-color: rgb(166, 152, 243);
+}
+.card{
+max-width:15rem;
+margin: 5px 5px 8px 10px;
+background-color: rgb(137, 245, 245);
+
+ 
+}
+.checkbox{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+
+}
+.cardflex{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+label {
+    font-size: 1.5em;
+    color: blue;
+    font-style: italic;
+
+  }
+  
+  input[type=checkbox]:checked + label {
+    color:red;
+    text-decoration: line-through;
+  } /*This is the MDN spec for doing this*/
+  
+  .btn:hover
+{
+background-image:none;
+background-color:#f3d214;
+}
+.datebtn:hover
+{
+background-image:none;
+background-color:#e61010;
+}
+.desbtn:hover
+{
+background-image:none;
+background-color:#08f708;
+}
+
